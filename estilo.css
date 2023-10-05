@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.boton{
+    background-color: rgba(69, 101, 64, 0.6);
+    border: none;
+    margin-top: 10px;
+    
+    width: 291.16px;
+    height: 71.71px;
+    
+    border-radius:50px;
+    padding: 25px 50px;
+}
+
+.boton:hover{
+    background-color: rgba(69, 101, 64, 0.9);
+    box-shadow: none;
+    transition: 0.5s;
+}
+.boton a{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.info-content{
+    background-color: white;
+    width: 350px;
+    height: 438px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    align-content: center;
+    
+    
+}
+    
+main{
+   
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    
+}
+img{
+    width: 341px;
+    height: 379px;
+    margin-top: 15px;
+    
+
+}
+
+.ircv{
+    
+    background-color: #c29676;
+    border: 1px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 140px;
+    height: 56px;
+    color: #000;
+    font-family: Crimson Pro;
+    font-size: 27px;
+   
+
+
+}
+
+.ircv:hover{
+    background-color: rgba(194, 129, 81, 1);
+
+}
+
+.proyecto{
+    background-color: rgba(156, 114, 84, 0.7);
+    width: 100%;
+    height: auto;
+}
+
+
+
+.info-proyecto img{
+    width: 550px;
+    height: 716px;
+    
+    
+}
+.info-proyecto{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1%;
+    
+    
+      
+}
+
+
+.icono-homeproyecto img{
+
+    width: 90px;
+    height: 90px;
+    
+    position:absolute;
+    right: 2.5%;
+    bottom: -51%;
+ 
+ }
+ 
+ 
+ 
+ .icono-plantproyecto img{
+ 
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    right: 2.5%;
+    bottom: -37%;
+ 
+ }
+ 
+ .icono-handsproyecto img{
+ 
+    width: 90px;
+    height: 90px;
+    
+    position:absolute;
+    right: 2.5%;
+    bottom: -23%;
+ 
+ }
+ 
+
+
+
+.info-proyecto p{
+    width: 600px;
+    height: 296px;
+    margin: 40px;
+    font-size: 30px;
+    font-family: 'Crimson Pro', serif;
+    
+    
+
+
+}
+
+.info-proyecto h2{
+    
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    font-family: Crimson Pro;
+    
+}
+
+
+   
+
+
+
+.contenedor{
+
+    background-color: rgba(255, 255, 255, 0.70);
+    opacity:-0,4;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    position:absolute;
+    bottom: 25%;
+    right: 5%;
+
+}
+.contenedor h2 {
+
+    
+    text-align: center;
+    right: 2%;
+    font-family: 'Crimson Pro', serif;
+    font-size: 60px;
+    line-height: normal;
+
+}
+
+
+
+.info-inicio{
+
+    background: rgba(156, 114, 84, 0.70);
+    border-radius: 35px;
+    border: 1px solid #000;
+    width: 480px;
+    height: 250px;
+    position: absolute;
+    bottom: -15%;
+    right: 3%; 
+    
+    
+}
+
+
+
+.info-inicio h3{
+    
+    margin: 25px;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.info-inicio h4{
+    
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+
+    
+}
+
+
+
+
+
+.icono-home img{
+
+   width: 90px;
+   height: 90px;
+   
+   position:absolute;
+   right: 2.5%;
+   top: 102%;
+
+}
+
+
+
+.icono-plant img{
+
+   width: 90px;
+   height: 90px;
+   
+   position:absolute;
+   right: 2.5%;
+   top: 88%;
+
+}
+
+.icono-hands img{
+
+   width: 90px;
+   height: 90px;
+   
+   position:absolute;
+   right: 2.5%;
+   top: 72%;
+
+}
+
+
+.sitio{
+    background-color: rgba(156, 114, 84, 0.8);
+    border-radius: 35px;
+    padding-top: 35px;
+    width: 700px;
+    height: 300px;
+    font-family: 'Imprima', sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    justify-content: center;
+    line-height: normal;
+    text-align: center;
+}
+
+.sitio h1{
+    
+}
+
+
